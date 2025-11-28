@@ -5,6 +5,8 @@ Mutation testing example using
 
 To generate mutation report from the command line:
 
-`mvn -e test-compile org.pitest-maven:pitest-maven:mutationCoverage`
+`mvn test-compile org.pitest:pitest-maven:mutationCoverage`
 
+Output will appear in target/pit-reports
+View the report by opening the index.html 
 
