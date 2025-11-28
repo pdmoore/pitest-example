@@ -19,3 +19,10 @@ With the plugin you need to
 
 Run the plugin via the Run button and the output link appears in a Mutation Report window.
 Output location for the plugin appears in target/report
+
+# GildedRose 100% Coverage
+A note on the example.
+The GildedRose kata can achieve 100% test coverage (line coverage!) with just three unit tests.
+This example demonstrates the weakness of relying on test coverage metrics without understanding the underlying source of the numbers.
+
+Running a mutation tool on the three tests quickly shows all the missing tests, ie the Mutants that escape the tests.
